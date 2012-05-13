@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<?php date_default_timezone_set('Europe/Paris'); ?><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<title>unixtime.fr - conversion temps unix</title>
 	<meta name="description" content="Conversion gratuite et en temps réel de temps UNIX" />
