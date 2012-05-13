@@ -1,5 +1,7 @@
 <?php
 
+date_default_timezone_set('Europe/Paris');
+
 $dateformat = "d/m/Y @ H:i:s";
 
 if ($_POST["type"] == "timestamp") {
@@ -22,4 +24,3 @@ if ($_POST["type"] == "timestamp") {
 
 }
 
-?>
