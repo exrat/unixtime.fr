@@ -10,7 +10,7 @@ q:before,q:after { content:”; }
 abbr,acronym { border:0; }
 
 * {
-	font-family: "Lucida Sans", sans-serif;
+	font-family: 'Lucida Sans', sans-serif;
 	font-size: 15px;
 }
 
@@ -42,9 +42,10 @@ body {
 	text-align: center;
 	font-size: 19px;
 	width: 170px;
+    outline: none;
 }
 
-#contenu #resultat_timestamp {
+#contenu #resultat-timestamp {
 	background: #ffffff;
 	position: absolute;
 	top: 82px;
@@ -53,7 +54,7 @@ body {
 	text-align: center;
 }
 
-#contenu #form_convert {
+#contenu #form-convert {
 	background: #ffffff;
 	position: absolute;
 	top: 236px;
@@ -62,13 +63,18 @@ body {
 	text-align: center;
 }
 
+#contenu #form-convert select {
+    outline: none;
+}
+
 #contenu input.goconvert {
 	position: absolute;
 	top: 236px;
 	right: 66px;
+    outline: none;
 }
 
-#contenu #resultat_convert {
+#contenu #resultat-convert {
 	background: #ffffff;
 	position: absolute;
 	top: 320px;
