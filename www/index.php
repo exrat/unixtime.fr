@@ -69,6 +69,10 @@
 </div>
 
 <div id="footer">
+    <select name="timezone" id="timezone">
+        <option value="Europe/Paris">Europe/Paris</option>
+        <option value="UTC">UTC</option>
+    </select>
     <a href="http://www.betacie.com"><img src="/betacie.png"/></a>
 </div>
 

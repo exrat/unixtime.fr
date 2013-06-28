@@ -5,7 +5,7 @@ $(document).ready(function () {
 
     timestamp.on('keyup', function () {
 
-        $.post('/ajax.php', {type:'timestamp', timestamp:timestamp.val()}, function (html) {
+        $.post('/ajax.php', {type:'timestamp', timestamp:timestamp.val(), timezone:$('select[name=timezone]').val()}, function (html) {
             $('#resultat-timestamp').html(html);
         });
 
@@ -15,7 +15,7 @@ $(document).ready(function () {
 
         $.post('/ajax.php', {type:'date', h:$('select[name=h]').val(), m:$('select[name=m]').val(),
             s:$('select[name=s]').val(), dd:$('select[name=dd]').val(), mm:$('select[name=mm]').val(),
-            yyyy:$('select[name=yyyy]').val()}, function (html) {
+            yyyy:$('select[name=yyyy]').val(), timezone:$('select[name=timezone]').val()}, function (html) {
 
             $('#resultat-convert').html(html);
 

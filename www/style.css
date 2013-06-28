@@ -90,8 +90,15 @@ body {
 	height: 61px;
 	text-align: right;
 	background: url(/footer.png);
+    position: relative;
 }
 
 #footer img {
 	margin: 14px 10px 0 0;
+}
+
+#footer select {
+    position: absolute;
+    top: 15px;
+    left: 0;
 }
