@@ -73,7 +73,6 @@
         <option value="Europe/Paris">Europe/Paris</option>
         <option value="UTC">UTC</option>
     </select>
-    <a href="http://www.betacie.com"><img src="/betacie.png"/></a>
 </div>
 
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
