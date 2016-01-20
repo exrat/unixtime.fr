@@ -1,0 +1,8 @@
+emails:
+  - maxime@maximevalette.com
+master:
+  release:
+    name: Unixtime
+    directory: production
+    url: http://www.unixtime.fr
+    keep: 5
